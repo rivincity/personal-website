@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rivan's First Website</title>
+	<link href = "style.css" rel = "stylesheet" type = "text/css" />
+	<style type = "text/css">
+		*
+		{
+			margin: 0;
+			padding: 0;
+		}
+		#logo
+		{
+			width: 300px;
+			height: 100px;
+			background-image: url(logo2.png);
+			float: left;
+		}
+		#header
+		{
+			background-color: black;
+			height: 100px;
+			width: 100%;
+		}
+		.container
+		{
+			width: 960px;
+			height: auto;
+			margin: 0 auto;
+		}
+		#navArea
+		{
+			height: 100px;
+			float: right;
+		}
+		#nav
+		{
+			list-style: none;
+			margin-top: 30px;
+		}
+		#nav a 
+		{
+			color: blue;
+			text-decoration: none;
+		}
+		#nav li
+		{
+			float: left;
+			margin-left: 30px;
+			background-color: white;
+			padding: 8px;
+			border: 1px solid red;
+			border-radius: 5px;
+			color: blue;
+		}
+		#nav li:hover
+		{
+			background-color: yellow;
+		}
+		.page
+		{
+			background-color: lavender;
+			padding: 20px;
+			padding-bottom: 1;
+		}
+		h1
+		{
+			text-decoration: none;
+			color: blue;
+			font-family: arial;
+		}
+		h2
+		{
+			text-decoration: none;
+			color: blue;
+			font-family: arial;
+		}
+		h3
+		{
+			color: blue;
+			font-family: arial;
+		}
+		#box
+		{
+			background-color: lavender;
+			width:500px;
+			height:500px;
+			position: absolute;
+			top: 250px;
+			left: 450px;
+			color: blue;
+			text-decoration: underline	
+			border: 5px solid black;
+			border-radius: 5px;
+		}
+		#footer
+		{
+			background-color: black;
+			color: white;
+			position: absolute;
+			top: 800px;
+			left: 0px;
+			padding-top: 20px;
+			height: 40px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id = "header">
+		<div class = "container">
+			<div id = "logo"></div>
+			<div id = "navArea">
+				<ul id = "nav">
+					<a href = "index.html"><li>Home</li></a>
+					<a href = "hobbies.html"><li>Hobbies</li></a>
+					<a href = "sports.html"><li>Sports</li></a>
+					<a href = "favorites.html"><li>Favorite ___</li></a>
+					<a href = "family.html"><li>Family</li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id = "mainArea">
+		<div class = "container page">
+			<div id = "box"></div>
+			<h1>Welcome to the Sports Page!</h1><br>
+			<h2>On this page, you will learn more about Rivan's favorite sports.</h2><br>
+			<div id = "box">My favorite basketball team: Los Angeles Lakers  <a href = "https://www.nba.com/lakers/">Laker's official website</a><br>My favorite football team: New York Giants  <a href = "https://www.giants.com">Giant's official website</a><br>My favorite baseball team: New York Yankees  <a href = "https://www.mlb.com/yankees">Yankees official website</a><br>My favorite soccer team: Brazil  <a href = "https://www.cbf.com.br">Brazil's official website</a><br>My favoirte tennis player: Rafael Nadal  <a href = "https://rafaelnadal.com/en/">Nadal's official website</a><br><br>Sports make me happy because of the competition, the cooperation, and the feeling of victory. I love playing outside with my friends. For my school, I am on the cross country team and the bowling team. These are two sports that I am decent at and like helping the school excel in. <br><img src = "sports1.jpg" width = "160px" height = "160px"> <img src = "sports2.jpg" width = "160px" height = "160px"> <img src = "sports3.png" height = "160px" width = "160px" height = "160px"><br><img src = "sports4.jpg" height = "160px" width = "160px"><img src = "sports5.jpg" width = "160px" height = "160px"> <img src = "sports6.jpg" height = "160px" width = "160px"></div>
+		</div>
+	</div>
+	<div id = "footer">Copyright Notice Here - Site maintained by Rivan Parikh</div>
+</body>
+</html>
